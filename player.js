@@ -105,14 +105,17 @@ Player.prototype = {
     sound.play();
 
     // Update the track display.
-    track.innerHTML = (index + 1) + '. ' + data.title;
+    //track.innerHTML = (index + 1) + '. ' + data.title;
+    track.innerHTML =  data.title;
     
     $('#extra .info').hide();
     $('#extra .installation').fadeIn();
     
+    $('#extra .installation .number').html(data.number ? 'NUMBER ' + data.number : '');
     $('#extra .installation .model').html(data.model || '');
     $('#extra .installation .designer').html(data.designer || '');
     $('#extra .installation .artist').html(data.artist || '');
+    $('#extra .installation .note').html(data.note || '');
     
     // Show the pause button.
     if (sound.state() === 'loaded') {
@@ -283,154 +286,202 @@ Player.prototype = {
 var player = new Player([
   {
     title: 'I',
-    model: 'Model Name',
-    designer: 'Designer Name',
-    artist: 'Artist Name',
-    file: 'rave_digger',
+    number: '1',
+    model: 'Abby Yankle',
+    designer: 'Julia Liller',
+    artist: 'Jessica Maples',
+    note: '',
+    file: '01 - ND13',
     howl: null
   },
   {
     title: 'II',
-    model: 'Model Name',
-    designer: 'Designer Name',
-    artist: 'Artist Name',
-    file: '80s_vibe',
+    number: '2',
+    model: 'Jalisa Ambrose',
+    designer: 'A.J. Tompkins',
+    artist: 'Conz8000',
+    note: '',
+    file: '02 - ND18',
     howl: null
   },
   {
     title: 'III',
-    model: 'Model Name',
-    designer: 'Designer Name',
-    artist: 'Artist Name',
-    file: 'running_out',
+    number: '3',
+    model: 'N/A',
+    designer: 'Miranda Pixley',
+    artist: 'Molly Holmes',
+    note: 'This installation is blank due to life changes for both artist and costumer to where they did not have freedom to create.',
+    file: '03 - ND08',
     howl: null
   },
   {
     title: 'IV',
+    number: '4',
     model: 'Model Name',
     designer: 'Designer Name',
     artist: 'Artist Name',
-    file: 'running_out',
+    note: '',
+    file: '04 - ND04',
     howl: null
   },
   {
     title: 'V',
+    number: '5',
     model: 'Model Name',
     designer: 'Designer Name',
     artist: 'Artist Name',
-    file: 'running_out',
+    note: '',
+    file: '05 - ND03',
     howl: null
   },
   {
     title: 'VI',
+    number: '6',
     model: 'Model Name',
     designer: 'Designer Name',
     artist: 'Artist Name',
-    file: 'running_out',
+    note: '',
+    file: '06 - ND07',
     howl: null
   },
   {
     title: 'VII',
+    number: '7',
     model: 'Model Name',
     designer: 'Designer Name',
     artist: 'Artist Name',
-    file: 'running_out',
+    note: '',
+    file: '07 - ND02',
     howl: null
   },
   {
     title: 'VIII',
+    number: '8',
     model: 'Model Name',
     designer: 'Designer Name',
     artist: 'Artist Name',
-    file: 'running_out',
+    note: '',
+    file: '08 - ND09',
     howl: null
   },
   {
     title: 'IX',
+    number: '9',
     model: 'Model Name',
     designer: 'Designer Name',
     artist: 'Artist Name',
-    file: 'running_out',
+    note: '',
+    file: '09 - ND16',
     howl: null
   },
   {
     title: 'X',
+    number: '10',
     model: 'Model Name',
     designer: 'Designer Name',
     artist: 'Artist Name',
-    file: 'rave_digger',
+    note: '',
+    file: '10 - ND06',
     howl: null
   },
   {
     title: 'XI',
+    number: '11',
     model: 'Model Name',
     designer: 'Designer Name',
     artist: 'Artist Name',
-    file: '80s_vibe',
+    note: '',
+    file: '11 - ND10',
     howl: null
   },
   {
     title: 'XII',
+    number: '12',
     model: 'Model Name',
     designer: 'Designer Name',
     artist: 'Artist Name',
-    file: 'running_out',
+    note: '',
+    file: '12 - ND11',
     howl: null
   },
   {
     title: 'XIII',
+    number: '13',
     model: 'Model Name',
     designer: 'Designer Name',
     artist: 'Artist Name',
-    file: 'running_out',
+    note: '',
+    file: '13 - ND19',
     howl: null
   },
   {
-    title: 'XIV',
+    title: 'XIV (13)',
+    number: '14',
     model: 'Model Name',
     designer: 'Designer Name',
     artist: 'Artist Name',
-    file: 'running_out',
+    note: '',
+    file: '13 - ND19',
     howl: null
   },
   {
-    title: 'XV',
+    title: 'XV (13)',
+    number: '15',
     model: 'Model Name',
     designer: 'Designer Name',
     artist: 'Artist Name',
-    file: 'running_out',
+    note: '',
+    file: '13 - ND19',
     howl: null
   },
   {
     title: 'XVI',
+    number: '16',
     model: 'Model Name',
     designer: 'Designer Name',
     artist: 'Artist Name',
-    file: 'running_out',
+    note: '',
+    file: '16 - ND01',
     howl: null
   },
   {
     title: 'XVII',
+    number: '17',
     model: 'Model Name',
     designer: 'Designer Name',
     artist: 'Artist Name',
-    file: 'running_out',
+    note: '',
+    file: '17 - ND05',
     howl: null
   },
   {
     title: 'XVIII',
+    number: '18',
     model: 'Model Name',
     designer: 'Designer Name',
     artist: 'Artist Name',
-    file: 'running_out',
+    note: '',
+    file: '18 - ND15',
     howl: null
   },
   {
     title: 'XIX',
+    number: '19',
     model: 'Model Name',
     designer: 'Designer Name',
     artist: 'Artist Name',
-    file: 'running_out',
+    note: '',
+    file: '19 - ND17',
+    howl: null
+  },
+  {
+    title: 'XX',
+    number: '20',
+    model: 'Model Name',
+    designer: 'Designer Name',
+    artist: 'Artist Name',
+    note: '',
+    file: '20 - ND12',
     howl: null
   }
 ]);
