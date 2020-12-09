@@ -282,7 +282,7 @@ Player.prototype = {
 // Setup our new audio player class and pass it the playlist.
 var player = new Player([
   {
-    title: 'Song 1',
+    title: 'I',
     model: 'Model Name',
     designer: 'Designer Name',
     artist: 'Artist Name',
@@ -290,42 +290,146 @@ var player = new Player([
     howl: null
   },
   {
-    title: 'Song 2',
+    title: 'II',
+    model: 'Model Name',
+    designer: 'Designer Name',
+    artist: 'Artist Name',
     file: '80s_vibe',
     howl: null
   },
   {
-    title: 'Running Out',
+    title: 'III',
+    model: 'Model Name',
+    designer: 'Designer Name',
+    artist: 'Artist Name',
     file: 'running_out',
     howl: null
   },
   {
-    title: 'Running Out',
+    title: 'IV',
+    model: 'Model Name',
+    designer: 'Designer Name',
+    artist: 'Artist Name',
     file: 'running_out',
     howl: null
   },
   {
-    title: 'Running Out',
+    title: 'V',
+    model: 'Model Name',
+    designer: 'Designer Name',
+    artist: 'Artist Name',
     file: 'running_out',
     howl: null
   },
   {
-    title: 'Running Out',
+    title: 'VI',
+    model: 'Model Name',
+    designer: 'Designer Name',
+    artist: 'Artist Name',
     file: 'running_out',
     howl: null
   },
   {
-    title: 'Running Out',
+    title: 'VII',
+    model: 'Model Name',
+    designer: 'Designer Name',
+    artist: 'Artist Name',
     file: 'running_out',
     howl: null
   },
   {
-    title: 'Running Out',
+    title: 'VIII',
+    model: 'Model Name',
+    designer: 'Designer Name',
+    artist: 'Artist Name',
     file: 'running_out',
     howl: null
   },
   {
-    title: 'Running Out',
+    title: 'IX',
+    model: 'Model Name',
+    designer: 'Designer Name',
+    artist: 'Artist Name',
+    file: 'running_out',
+    howl: null
+  },
+  {
+    title: 'X',
+    model: 'Model Name',
+    designer: 'Designer Name',
+    artist: 'Artist Name',
+    file: 'rave_digger',
+    howl: null
+  },
+  {
+    title: 'XI',
+    model: 'Model Name',
+    designer: 'Designer Name',
+    artist: 'Artist Name',
+    file: '80s_vibe',
+    howl: null
+  },
+  {
+    title: 'XII',
+    model: 'Model Name',
+    designer: 'Designer Name',
+    artist: 'Artist Name',
+    file: 'running_out',
+    howl: null
+  },
+  {
+    title: 'XIII',
+    model: 'Model Name',
+    designer: 'Designer Name',
+    artist: 'Artist Name',
+    file: 'running_out',
+    howl: null
+  },
+  {
+    title: 'XIV',
+    model: 'Model Name',
+    designer: 'Designer Name',
+    artist: 'Artist Name',
+    file: 'running_out',
+    howl: null
+  },
+  {
+    title: 'XV',
+    model: 'Model Name',
+    designer: 'Designer Name',
+    artist: 'Artist Name',
+    file: 'running_out',
+    howl: null
+  },
+  {
+    title: 'XVI',
+    model: 'Model Name',
+    designer: 'Designer Name',
+    artist: 'Artist Name',
+    file: 'running_out',
+    howl: null
+  },
+  {
+    title: 'XVII',
+    model: 'Model Name',
+    designer: 'Designer Name',
+    artist: 'Artist Name',
+    file: 'running_out',
+    howl: null
+  },
+  {
+    title: 'XVIII',
+    model: 'Model Name',
+    designer: 'Designer Name',
+    artist: 'Artist Name',
+    file: 'running_out',
+    howl: null
+  },
+  {
+    title: 'XIX',
+    model: 'Model Name',
+    designer: 'Designer Name',
+    artist: 'Artist Name',
     file: 'running_out',
     howl: null
   }
