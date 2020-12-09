@@ -70,7 +70,7 @@ body {
 #extra {
   position: absolute;
   width: 100%;
-  top: 15%;
+  top: 35%;
   line-height: 34px;
   height: 34px;
   text-align: center;
@@ -161,7 +161,7 @@ body {
   height: 30%;
   position: absolute;
   left: 0;
-  top: 50%;
+  top: 60%;
   margin: -15% auto;
   display: none;
   cursor: pointer;
@@ -175,7 +175,7 @@ body {
 #bar {
 	display: none;
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 0;
   width: 100%;
   height: 2px;

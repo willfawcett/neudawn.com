@@ -501,7 +501,7 @@ var wave = new SiriWave({
   width: window.innerWidth,
   height: window.innerHeight * 0.3,
   cover: true,
-  speed: 0.03,
+  speed: 0.02,
   amplitude: 0.7,
   frequency: 2
 });
