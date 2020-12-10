@@ -317,9 +317,9 @@ var player = new Player([
   {
     title: 'IV',
     number: '4',
-    model: 'Model Name',
-    designer: 'Designer Name',
-    artist: 'Artist Name',
+    model: 'Ellis Jayne',
+    designer: 'Sunè Van Rooyen Phillips',
+    artist: 'Sunè Van Rooyen Phillips',
     note: '',
     file: '04 - ND04',
     howl: null
@@ -327,9 +327,9 @@ var player = new Player([
   {
     title: 'V',
     number: '5',
-    model: 'Model Name',
-    designer: 'Designer Name',
-    artist: 'Artist Name',
+    model: 'Rachel Stringfellow',
+    designer: 'Rachel Stringfellow',
+    artist: 'Rachel Stringfellow',
     note: '',
     file: '05 - ND03',
     howl: null
@@ -337,9 +337,9 @@ var player = new Player([
   {
     title: 'VI',
     number: '6',
-    model: 'Model Name',
-    designer: 'Designer Name',
-    artist: 'Artist Name',
+    model: 'Lillian McKinney',
+    designer: 'Lillian McKinney',
+    artist: 'Lucy Gafford',
     note: '',
     file: '06 - ND07',
     howl: null
@@ -347,9 +347,9 @@ var player = new Player([
   {
     title: 'VII',
     number: '7',
-    model: 'Model Name',
-    designer: 'Designer Name',
-    artist: 'Artist Name',
+    model: 'Nicole Decker',
+    designer: 'Sarah Bohnenstiehl',
+    artist: 'Dena Kollins',
     note: '',
     file: '07 - ND02',
     howl: null
@@ -357,9 +357,9 @@ var player = new Player([
   {
     title: 'VIII',
     number: '8',
-    model: 'Model Name',
-    designer: 'Designer Name',
-    artist: 'Artist Name',
+    model: 'Laura Scott',
+    designer: 'Courtney Matthews',
+    artist: 'Ryan Jetten',
     note: '',
     file: '08 - ND09',
     howl: null
@@ -367,18 +367,18 @@ var player = new Player([
   {
     title: 'IX',
     number: '9',
-    model: 'Model Name',
-    designer: 'Designer Name',
-    artist: 'Artist Name',
-    note: '',
+    model: 'Reginald Davis',
+    designer: 'Antionette Warbington',
+    artist: '',
+    note: 'Sol Davis could not be in the show due to work.',
     file: '09 - ND16',
     howl: null
   },
   {
     title: 'X',
     number: '10',
-    model: 'Model Name',
-    designer: 'Designer Name',
+    model: 'April Patrick',
+    designer: 'April Patrick',
     artist: 'Artist Name',
     note: '',
     file: '10 - ND06',
@@ -387,9 +387,9 @@ var player = new Player([
   {
     title: 'XI',
     number: '11',
-    model: 'Model Name',
-    designer: 'Designer Name',
-    artist: 'Artist Name',
+    model: 'April Livingston',
+    designer: 'April Livingston',
+    artist: 'Amanada Youngblood',
     note: '',
     file: '11 - ND10',
     howl: null
@@ -397,9 +397,9 @@ var player = new Player([
   {
     title: 'XII',
     number: '12',
-    model: 'Model Name',
-    designer: 'Designer Name',
-    artist: 'Artist Name',
+    model: 'Stallworth',
+    designer: 'Stallworth',
+    artist: 'Brandin Stallworth',
     note: '',
     file: '12 - ND11',
     howl: null
@@ -407,9 +407,9 @@ var player = new Player([
   {
     title: 'XIII',
     number: '13',
-    model: 'Model Name',
-    designer: 'Designer Name',
-    artist: 'Artist Name',
+    model: 'Suzette Callahan',
+    designer: 'Suzette Callahan',
+    artist: 'Randy Jennings',
     note: '',
     file: '13 - ND19',
     howl: null
@@ -417,9 +417,9 @@ var player = new Player([
   {
     title: 'XIV',
     number: '14',
-    model: 'Model Name',
-    designer: 'Designer Name',
-    artist: 'Artist Name',
+    model: 'Marnèe Wiley',
+    designer: 'Valerie Iliff',
+    artist: 'Chris Murray',
     note: '',
     file: '14 - ND05',
     howl: null
@@ -427,9 +427,9 @@ var player = new Player([
   {
     title: 'XV',
     number: '15',
-    model: 'Model Name',
-    designer: 'Designer Name',
-    artist: 'Artist Name',
+    model: 'Larrah Craig',
+    designer: 'Laura Compton',
+    artist: 'Marnèe Wiley',
     note: '',
     file: '15 - ND17',
     howl: null
@@ -437,9 +437,9 @@ var player = new Player([
   {
     title: 'XVI',
     number: '16',
-    model: 'Model Name',
-    designer: 'Designer Name',
-    artist: 'Artist Name',
+    model: 'McKenzie Wallace',
+    designer: 'Jessica Price',
+    artist: 'Mateo',
     note: '',
     file: '16 - ND01',
     howl: null
@@ -447,9 +447,9 @@ var player = new Player([
   {
     title: 'XVII',
     number: '17',
-    model: 'Model Name',
-    designer: 'Designer Name',
-    artist: 'Artist Name',
+    model: 'Emily Howat',
+    designer: 'Richard McGill-Hamilton',
+    artist: 'Taylor Shaw',
     note: '',
     file: '17 - ND05',
     howl: null
@@ -457,9 +457,9 @@ var player = new Player([
   {
     title: 'XVIII',
     number: '18',
-    model: 'Model Name',
-    designer: 'Designer Name',
-    artist: 'Artist Name',
+    model: 'Debbie Richards',
+    designer: 'Debbie Richards',
+    artist: 'Katrina Breland',
     note: '',
     file: '18 - ND15',
     howl: null
@@ -467,9 +467,9 @@ var player = new Player([
   {
     title: 'XIX',
     number: '19',
-    model: 'Model Name',
-    designer: 'Designer Name',
-    artist: 'Artist Name',
+    model: 'Sarah Hoeb',
+    designer: 'Sara Thompson',
+    artist: 'Sarah Gelsinger Brewer',
     note: '',
     file: '19 - ND17',
     howl: null
@@ -477,9 +477,9 @@ var player = new Player([
   {
     title: 'XX',
     number: '20',
-    model: 'Model Name',
-    designer: 'Designer Name',
-    artist: 'Artist Name',
+    model: 'Jessica Price',
+    designer: 'Jessica Price',
+    artist: 'Jessica Price',
     note: '',
     file: '20 - ND12',
     howl: null
