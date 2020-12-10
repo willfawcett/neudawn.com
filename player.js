@@ -379,7 +379,7 @@ var player = new Player([
     number: '10',
     model: 'April Patrick',
     designer: 'April Patrick',
-    artist: 'Artist Name',
+    artist: 'Emily Smith',
     note: '',
     file: '10 - ND06',
     howl: null
@@ -437,7 +437,7 @@ var player = new Player([
   {
     title: 'XVI',
     number: '16',
-    model: 'McKenzie Wallace',
+    model: 'Mackenzie Wallace',
     designer: 'Jessica Price',
     artist: 'Mateo',
     note: '',
@@ -447,7 +447,7 @@ var player = new Player([
   {
     title: 'XVII',
     number: '17',
-    model: 'Emily Howat',
+    model: '__________',
     designer: 'Richard McGill-Hamilton',
     artist: 'Taylor Shaw',
     note: '',
