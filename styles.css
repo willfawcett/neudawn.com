@@ -6,6 +6,12 @@ html {
   margin: 0;
   outline: 0;
 }
+a {
+	color: white;
+}
+a:hover {
+	color: white;
+}
 
 body {
   width: 100%;

@@ -9,7 +9,7 @@
  */
 
 // Cache references to DOM elements.
-var elms = ['track', 'extra', 'timer', 'duration', 'playBtn', 'pauseBtn', 'prevBtn', 'nextBtn', 'playlistBtn', 'volumeBtn', 'progress', 'bar', 'wave', 'loading', 'playlist', 'list', 'volume', 'barEmpty', 'barFull', 'sliderBtn'];
+var elms = ['track', 'extra', 'timer', 'duration', 'playLink', 'playBtn', 'pauseBtn', 'prevBtn', 'nextBtn', 'playlistBtn', 'volumeBtn', 'progress', 'bar', 'wave', 'loading', 'playlist', 'list', 'volume', 'barEmpty', 'barFull', 'sliderBtn'];
 elms.forEach(function(elm) {
   window[elm] = document.getElementById(elm);
 });
@@ -490,6 +490,10 @@ var player = new Player([
 playBtn.addEventListener('click', function() {
   player.play();
 });
+playLink.addEventListener('click', function() {
+  player.play();
+});
+
 pauseBtn.addEventListener('click', function() {
   player.pause();
 });
