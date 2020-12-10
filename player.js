@@ -451,7 +451,7 @@ var player = new Player([
     designer: 'Richard McGill-Hamilton',
     artist: 'Taylor Shaw',
     note: '',
-    file: '17 - ND05',
+    file: '17 - ND14',
     howl: null
   },
   {
@@ -471,7 +471,7 @@ var player = new Player([
     designer: 'Sara Thompson',
     artist: 'Sarah Gelsinger Brewer',
     note: '',
-    file: '19 - ND17',
+    file: '19 - ND20',
     howl: null
   },
   {
