@@ -415,23 +415,23 @@ var player = new Player([
     howl: null
   },
   {
-    title: 'XIV (13)',
+    title: 'XIV',
     number: '14',
     model: 'Model Name',
     designer: 'Designer Name',
     artist: 'Artist Name',
     note: '',
-    file: '13 - ND19',
+    file: '14 - ND05',
     howl: null
   },
   {
-    title: 'XV (13)',
+    title: 'XV',
     number: '15',
     model: 'Model Name',
     designer: 'Designer Name',
     artist: 'Artist Name',
     note: '',
-    file: '13 - ND19',
+    file: '15 - ND17',
     howl: null
   },
   {
