@@ -367,10 +367,10 @@ var player = new Player([
   {
     title: 'IX',
     number: '9',
-    model: 'Reginald Davis',
+    model: 'N/A',
     designer: 'Antionette Warbington',
     artist: '',
-    note: 'Sol Davis could not be in the show due to work.',
+    note: 'This installation is blank due to life changes for both artist and costumer to where they did not have freedom to create.',
     file: '09 - ND16',
     howl: null
   },
@@ -447,10 +447,10 @@ var player = new Player([
   {
     title: 'XVII',
     number: '17',
-    model: '__________',
+    model: 'N/A',
     designer: 'Richard McGill-Hamilton',
     artist: 'Taylor Shaw',
-    note: '',
+    note: 'This Model not available due to Covid exposure',
     file: '17 - ND14',
     howl: null
   },
